@@ -1,0 +1,11 @@
+framework module PaleInk_macOS {
+  umbrella header "PaleInk_macOS.h"
+
+  export *
+  module * { export * }
+}
+
+module PaleInk_macOS.Swift {
+    header "PaleInk_macOS-Swift.h"
+    requires objc
+}
